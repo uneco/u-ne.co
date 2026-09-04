@@ -1,0 +1,86 @@
+.container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.modeA {
+  background-color: #ffffff;
+}
+
+.modeB {
+  background-color: #ccdccf;
+}
+
+.imageContainer {
+  position: absolute;
+}
+
+.kusaLeft {
+  left: 20%;
+  bottom: 5%;
+
+  img {
+    height: 90svh;
+  }
+}
+
+.kusaRight {
+  right: 20%;
+  bottom: 5%;
+
+  img {
+    height: 90svh;
+  }
+}
+
+.unecoStand {
+  left: 50%;
+  bottom: 5%;
+
+  img {
+    margin-left: -50%;
+    height: 80svh;
+  }
+}
+
+.unecoHorizontal {
+  right: 200px;
+  bottom: -5px;
+
+  @media screen and (max-width: 640px) {
+    left: -250px;
+  }
+
+  img {
+    height: 60svh;
+  }
+}
+
+.flower {
+  top: 0;
+  left: 0;
+
+  img {
+    height: 100svh;
+  }
+}
+
+.twitterBanner {
+  position: fixed;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  right: 22px;
+  bottom: 22px;
+
+  @media screen and (max-width: 960px) {
+    background: #fff;
+  }
+}
+
+.banner {
+  width: 200px;
+  height: 40px;
+  display: block;
+}
