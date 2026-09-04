@@ -270,8 +270,27 @@
       @media (max-width: 760px) {
         .body { flex-direction: column-reverse; }
         .rig { width: 100%; max-height: 46%; border-right: none; border-top: 1px solid var(--line); }
-        .readout { flex-wrap: wrap; height: auto; padding: var(--sp-1) var(--sp-2); gap: var(--sp-2); }
-        .meta { flex-wrap: wrap; }
+        .readout {
+          height: 40px;
+          display: grid;
+          grid-template-columns: auto minmax(0, 1fr);
+          grid-template-rows: 16px 16px;
+          column-gap: var(--sp-2);
+          row-gap: 0;
+          padding: var(--sp-1) var(--sp-2);
+        }
+        .state { grid-column: 1; grid-row: 1; }
+        .gauge { grid-column: 1 / -1; grid-row: 2; width: 100%; min-width: 0; }
+        .gauge-track { min-width: 0; }
+        .meta {
+          grid-column: 2;
+          grid-row: 1;
+          min-width: 0;
+          overflow: hidden;
+          justify-self: end;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
       }
     </style>
     <script type="module" crossorigin src="/butterfly/assets/index-CL-mIKpV.js"></script>
