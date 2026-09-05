@@ -1,0 +1,2 @@
+# Preserve the exact validated static release bytes across Windows and CI.
+public/carpenter/** -text

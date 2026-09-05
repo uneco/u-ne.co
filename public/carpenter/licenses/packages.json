@@ -1,0 +1,155 @@
+[
+  {
+    "name": "@fontsource-variable/dm-sans",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "file": "fontsource-variable--dm-sans-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/fontsource/font-files.git",
+      "directory": "fonts/variable/dm-sans"
+    },
+    "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7"
+  },
+  {
+    "name": "@fontsource-variable/noto-sans-jp",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "file": "fontsource-variable--noto-sans-jp-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/fontsource/font-files.git",
+      "directory": "fonts/variable/noto-sans-jp"
+    },
+    "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+  },
+  {
+    "name": "earcut",
+    "version": "3.2.3",
+    "license": "ISC",
+    "file": "earcut-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git://github.com/mapbox/earcut.git"
+    },
+    "sha256": "0b348fff56384b43dbb37593906904e56d0f9deb51eae590d4dc6d427fbf1808"
+  },
+  {
+    "name": "jotai",
+    "version": "2.20.3",
+    "license": "MIT",
+    "file": "jotai-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/pmndrs/jotai.git"
+    },
+    "sha256": "0530d5d58026f4bb73367d195946f6a516a648ea62dd8b84763318f64d3cb3e2"
+  },
+  {
+    "name": "lucide-react",
+    "version": "0.577.0",
+    "license": "ISC",
+    "file": "lucide-react-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "https://github.com/lucide-icons/lucide.git",
+      "directory": "packages/lucide-react"
+    },
+    "sha256": "668dcc52803480e0a026b31140a4cae668772663cd764e5991d252eef03f98db"
+  },
+  {
+    "name": "react",
+    "version": "19.2.8",
+    "license": "MIT",
+    "file": "react-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/react"
+    },
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.2.8",
+    "license": "MIT",
+    "file": "react-dom-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/react-dom"
+    },
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+  },
+  {
+    "name": "scheduler",
+    "version": "0.27.0",
+    "license": "MIT",
+    "file": "scheduler-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "https://github.com/facebook/react.git",
+      "directory": "packages/scheduler"
+    },
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+  },
+  {
+    "name": "vgpu",
+    "version": "0.4.0",
+    "license": "MIT",
+    "file": "vgpu-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/vercel-labs/vgpu.git",
+      "directory": "packages/vgpu-api"
+    },
+    "sha256": "779258e329008bdb9330e6c1daad644ff867f164d11c4cc4404350479f3e92ee"
+  },
+  {
+    "name": "@vgpu/core",
+    "version": "0.4.0",
+    "license": "MIT",
+    "file": "vgpu--core-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/vercel-labs/vgpu.git",
+      "directory": "packages/core"
+    },
+    "sha256": "779258e329008bdb9330e6c1daad644ff867f164d11c4cc4404350479f3e92ee"
+  },
+  {
+    "name": "@vgpu/wgsl",
+    "version": "0.4.0",
+    "license": "MIT",
+    "file": "vgpu--wgsl-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/vercel-labs/vgpu.git",
+      "directory": "packages/wgsl"
+    },
+    "sha256": "779258e329008bdb9330e6c1daad644ff867f164d11c4cc4404350479f3e92ee"
+  },
+  {
+    "name": "@vgpu/wgsl-std",
+    "version": "0.4.0",
+    "license": "MIT",
+    "file": "vgpu--wgsl-std-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/vercel-labs/vgpu.git",
+      "directory": "packages/wgsl-std"
+    },
+    "sha256": "779258e329008bdb9330e6c1daad644ff867f164d11c4cc4404350479f3e92ee"
+  },
+  {
+    "name": "wgpu-matrix",
+    "version": "3.4.2",
+    "license": "MIT",
+    "file": "wgpu-matrix-LICENSE.txt",
+    "source": {
+      "type": "git",
+      "url": "git+https://github.com/greggman/wgpu-matrix.git"
+    },
+    "sha256": "7bc231a071455bad3c539565385904ea572c0e3ad18713f29a8f88f8d4eefebc"
+  }
+]
